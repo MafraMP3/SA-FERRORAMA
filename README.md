@@ -1,17 +1,17 @@
 # SA-FERRORAMA
 Projeto escolar
-
-# Membros da Equipe
+---
+## Membros da Equipe
 Caio Mafra
 Davi Sehnem
 Kauan Fix
 Lucas Acacio
-
-# Proposta
+---
+## Proposta
 A proposta do sistema é ser um aplicativo para a visualização e edição dos dados de sensores de trem, o projeto tem como objetivo ser uma central para melhor visualização dos dados advindos dos sensores.
-
-# O sistema conterá:
-Tela de Login e Cadastro
-Visualização dos Dados dos Sensores
-Edição de Sensores
-Edição de Trens
+---
+## O sistema conterá:
+*Tela de Login e Cadastro
+*Visualização dos Dados dos Sensores
+*Edição de Sensores
+*Edição de Trens

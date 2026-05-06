@@ -14,7 +14,7 @@
     <header></header>
 
     <main>
-        <section id="section-login" class="d-block justify-content-center container">
+        <section id="section-login" class="d-block container">
             <div>
                 <div class="d-flex justify-content-center">
                     <img id="img-login-screen" class="img-fluid" src="assets/images/icon-image-login-screen.png" alt="">
@@ -23,11 +23,11 @@
                     <form id="form-login" action="">
                         <div>
                             <label class="d-block label-login" for="">E-mail</label>
-                            <input class="form-control input-login" type="text" id="email" placeholder="Digite seu email...">
+                            <input class="form-control input-login" type="text" id="email" placeholder="Digite seu email..." autocomplete="email">
                         </div>
                         <div class="div-inputs">
                             <label class="d-block label-login" for="">Senha</label>
-                            <input class="form-control input-login" type="text" id="senha" placeholder="Digite sua senha...">
+                            <input class="form-control input-login" type="password" id="senha" placeholder="Digite sua senha..." autocomplete="off">
                         </div>
                         <div class="d-grid gap-2">
                             <button class="d-block btn btn-primary submit-button" type="submit">Entrar</button>
@@ -42,7 +42,9 @@
         </section>
     </main>
 
-    <footer></footer>
+    <footer>
+        <img id="img-footer-login-screen" src="assets/images/footer-image-login-screen.png" alt="">
+    </footer>
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

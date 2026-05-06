@@ -1,12 +1,15 @@
 :root{
     --cor-fundo: #f9f9ee;
     --submit-button-color: #ff3131;
+    --label-login-color: #2c2c2c;
     --cor-home:#392d29;
 }
 
 
 body{
     background-color: var(--cor-fundo) !important;
+    align-items: center;
+    display: block;
 }
 #home{
     background-color: var(--cor-home) !important;
@@ -16,11 +19,14 @@ body{
 /*----------------------loggin screen------------------------*/
 
 #section-login{
-    margin-top: 60px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #div-login-screen{
-    max-width: 440px !important;
+    max-width: 420px !important;
 }
 
 .div-flex-collum{
@@ -30,18 +36,19 @@ body{
 }
 
 #img-login-screen{
-    max-height: 520px !important;
+    max-height: 500px !important;
 }
 
 .div-inputs{
     margin-top: 15px;
-    margin-bottom: 30px !important;
+    margin-bottom: 10px !important;
 }
 
 .label-login{
+    font-family: 'brixton', sans-serif;
     margin-left: 6px;
     color: var(--label-login-color) !important;
-    font-size: 20px !important;
+    font-size: 19px !important;
     font-weight: 670;
 }
 
@@ -50,7 +57,7 @@ body{
     border-radius: 10px;
     border: 2px solid var(--label-login-color) !important;
     color: #2c2c2c;
-    font-weight: 600;
+    font-weight: 580;
 }
 
 .submit-button{
@@ -58,6 +65,27 @@ body{
     padding: 2px;
     font-size: 30px;
     margin-top: 18px !important;
+    border-radius: 10px !important;
+}
+
+#img-footer-login-screen{
+    max-height: 45px;
+    position: absolute;
+    left: 50%;
+    top: 94%;
+    transform: translate(-50%, -50%);
+}
+#mensagem {
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+    height: 0;
+}
+
+#erro {
+    margin: 0;
+    padding: 0;
+    visibility: visible;
 }
 
 @font-face {

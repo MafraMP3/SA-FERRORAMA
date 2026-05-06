@@ -26,7 +26,7 @@ body{
 }
 
 #div-login-screen{
-    max-width: 440px !important;
+    max-width: 420px !important;
 }
 
 .div-flex-collum{
@@ -36,7 +36,7 @@ body{
 }
 
 #img-login-screen{
-    max-height: 520px !important;
+    max-height: 500px !important;
 }
 
 .div-inputs{
@@ -45,9 +45,10 @@ body{
 }
 
 .label-login{
+    font-family: 'brixton', sans-serif;
     margin-left: 6px;
     color: var(--label-login-color) !important;
-    font-size: 20px !important;
+    font-size: 19px !important;
     font-weight: 670;
 }
 
@@ -56,7 +57,7 @@ body{
     border-radius: 10px;
     border: 2px solid var(--label-login-color) !important;
     color: #2c2c2c;
-    font-weight: 600;
+    font-weight: 580;
 }
 
 .submit-button{
@@ -64,6 +65,15 @@ body{
     padding: 2px;
     font-size: 30px;
     margin-top: 18px !important;
+    border-radius: 10px !important;
+}
+
+#img-footer-login-screen{
+    max-height: 45px;
+    position: absolute;
+    left: 50%;
+    top: 94%;
+    transform: translate(-50%, -50%);
 }
 
 @font-face {

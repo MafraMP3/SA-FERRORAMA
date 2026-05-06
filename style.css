@@ -204,6 +204,7 @@ body{
 .hamburger i {
   color: white;
   font-size: 20px;
+
 }
 
 
@@ -239,4 +240,8 @@ body{
     padding: 20px;
     padding-top: 60px; 
   }
+}
+
+#cadastrartext{
+  margin: 0 !important;
 }

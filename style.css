@@ -12,6 +12,10 @@ body{
     max-width: 400px !important;
 }
 
+#img-login-screen{
+    max-width: 400px !important;
+}
+
 .submit-button{
     background-color: var(--submit-button-color) !important;
     margin-top: 18px !important;

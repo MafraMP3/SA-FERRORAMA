@@ -24,3 +24,18 @@ body{
     background-color: var(--submit-button-color) !important;
     margin-top: 18px !important;
 }
+
+@font-face {
+  font-family: 'brixton';
+  src: url(assets/fonts/brixton-sans-rg.ttf) format(ttf)
+}
+
+@font-face {
+  font-family: 'Cagliostro';
+  src: url(assets/fonts/Cagliostro-Regular.ttf) format(ttf)
+}
+
+@font-face {
+  font-family: 'Sawarabi';
+  src: url(assets/fonts/SawarabiMincho-Regular.ttf) format(ttf)
+}

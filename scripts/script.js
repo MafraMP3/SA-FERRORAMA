@@ -1,5 +1,12 @@
 
+  function toggleSidebar() {
+    document.querySelector('.sidebar').classList.toggle('open');
+    document.getElementById('overlay').classList.toggle('active');
+  }
+
+
 //=============================================================================================================================================//
+
 
 if (window.location.pathname.includes("index.html")){
 

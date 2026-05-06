@@ -5,15 +5,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
+<<<<<<< HEAD
   <title>Sensores</title>
+=======
+  <title>Sensores - Ferrorama SA</title> 
+>>>>>>> e331ad85920ce04f8346b1a6afc83dd8d2520e4e
 </head>
 
 <body>
-
-  <main>
+    <div class="sidebar-overlay" id="overlay" onclick="toggleSidebar()"></div>
+    <button class="hamburger" onclick="toggleSidebar()">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    
     <div class="sidebar container">
       <div id="logocontainer">
         <img src="assets/images/logo-quadrada.png " alt="logo">
@@ -29,17 +36,18 @@
     <div class="container content">
 
       <div>
-        <div class="d-flex">
+        <div class="d-flex align-itens-center">
           <div>
             <img class="img-fluid img-sensor-icon" src="assets/images/icon-sensor-logo.png" alt="">
           </div>
-          <div>
-            <h4>CADASTRAR NOVO SENSOR</h4>
+          <div class="d-flex align-itens-center div-text-1">
+            <h4> CADASTRAR NOVO SENSOR </h4>
           </div>
-          <div>
-
-          </div>
+          
       </div>
+        <div>
+
+        </div>
       <div>
 
       </div>
@@ -104,7 +112,9 @@
 
 
  
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+<script src="scripts/script.js"></script>
 </body>
-
 </html>

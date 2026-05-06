@@ -1,6 +1,23 @@
+
+  function toggleSidebar() {
+    document.querySelector('.sidebar').classList.toggle('open');
+    document.getElementById('overlay').classList.toggle('active');
+  }
+
 if (!window.location.pathname.includes("index.html")) {
     if (localStorage.getItem("logado") !== "true") {
         window.location.replace("index.html");
+    }
+    const logout = document.querySelector('.logout');
+
+    if (logout) {
+        logout.onclick = (e) => {
+
+            e.preventDefault();
+
+            localStorage.clear();
+            window.location.replace("index.html");
+        }
     }
 }
 //=============================================================================================================================================//
@@ -55,15 +72,9 @@ if (window.location.pathname.includes("home.html")) {
     localStorage.setItem("email", "admin@gmail.com");
     localStorage.setItem("password", "123");
 
-    const logout = document.querySelector('.logout');
+    let welcome = document.getElementById("saudacao");
+    let nomeAdmin = "Admin";
 
-    if (logout) {
-        logout.onclick = (e) => {
-
-            e.preventDefault();
-
-            localStorage.clear();
-            window.location.replace("home.html");
-        }
-    }
+    welcome.textContent = `Bem-vindo, ${nomeAdmin}`;
+    
 }

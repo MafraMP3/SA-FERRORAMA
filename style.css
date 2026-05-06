@@ -75,6 +75,18 @@ body{
     top: 94%;
     transform: translate(-50%, -50%);
 }
+#mensagem {
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+    height: 0;
+}
+
+#erro {
+    margin: 0;
+    padding: 0;
+    visibility: visible;
+}
 
 @font-face {
   font-family: 'brixton';

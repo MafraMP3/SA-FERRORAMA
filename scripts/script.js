@@ -50,6 +50,9 @@ if (window.location.pathname.includes("index.html")) {
 
 //=============================================================================================================================================//
 
+<<<<<<< HEAD
+
+=======
 if (window.location.pathname.includes("home.html")) {
 
     localStorage.setItem("email", "admin@gmail.com");
@@ -67,3 +70,4 @@ if (window.location.pathname.includes("home.html")) {
         }
     }
 }
+>>>>>>> 98e177e9305d396b4a67a2e8760a72f28443a80b

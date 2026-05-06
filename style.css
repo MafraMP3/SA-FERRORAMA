@@ -1,0 +1,18 @@
+:root{
+    --cor-fundo: #f9f9ee;
+    --submit-button-color: #ff3131;
+}
+
+
+body{
+    background-color: var(--cor-fundo) !important;
+}
+
+#div-login-screen{
+    max-width: 400px !important;
+}
+
+.submit-button{
+    background-color: var(--submit-button-color) !important;
+    margin-top: 18px !important;
+}

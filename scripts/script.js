@@ -1,7 +1,6 @@
 if (!window.location.pathname.includes("index.html")) {
     if (localStorage.getItem("logado") !== "true") {
         window.location.replace("index.html");
-        alert("LOGUE ANTES DE USAR");
     }
 }
 //=============================================================================================================================================//
@@ -48,7 +47,6 @@ if (window.location.pathname.includes("index.html")) {
         }
     }
 }
-
 
 //=============================================================================================================================================//
 

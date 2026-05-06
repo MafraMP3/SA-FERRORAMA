@@ -1,9 +1,26 @@
+//======================================================TODAS AS PÁGINAS=======================================================================================//
+  function toggleSidebar() {
+    document.querySelector('.sidebar').classList.toggle('open');
+    document.getElementById('overlay').classList.toggle('active');
+  }
+
 if (!window.location.pathname.includes("index.html")) {
     if (localStorage.getItem("logado") !== "true") {
         window.location.replace("index.html");
     }
+    const logout = document.querySelector('.logout');
+
+    if (logout) {
+        logout.onclick = (e) => {
+
+            e.preventDefault();
+
+            localStorage.clear();
+            window.location.replace("index.html");
+        }
+    }
 }
-//=============================================================================================================================================//
+//======================================================INDEX.HTML=======================================================================================//
 
 if (window.location.pathname.includes("index.html")) {
 
@@ -48,7 +65,7 @@ if (window.location.pathname.includes("index.html")) {
     }
 }
 
-//=============================================================================================================================================//
+//======================================================HOME.HTML=======================================================================================//
 
 if (window.location.pathname.includes("home.html")) {
 
@@ -59,15 +76,5 @@ if (window.location.pathname.includes("home.html")) {
     let nomeAdmin = "Admin";
 
     welcome.textContent = `Bem-vindo, ${nomeAdmin}`;
-    const logout = document.querySelector('.logout');
-
-    if (logout) {
-        logout.onclick = (e) => {
-
-            e.preventDefault();
-
-            localStorage.clear();
-            window.location.replace("index.html");
-        }
-    }
+    
 }

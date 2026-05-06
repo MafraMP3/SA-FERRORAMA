@@ -10,29 +10,30 @@
   <link rel="stylesheet" href="style.css">
 
   <title>Sensores</title>
-  <title>Sensores - Ferrorama SA</title>
+  
 
 </head>
 
 <body>
   <div class="sidebar-overlay" id="overlay" onclick="toggleSidebar()"></div>
-  <button class="hamburger" onclick="toggleSidebar()">
-    <i class="fa-solid fa-bars"></i>
-  </button>
+    <button class="hamburger" onclick="toggleSidebar()">
+      <i class="fa-solid fa-bars"></i>
+    </button>
 
-  <div class="sidebar container">
-    <div id="logocontainer">
-      <img src="assets/images/logo-quadrada.png " alt="logo">
+    <div class="sidebar container">
+      <div id="logocontainer">
+    <img src="assets/images/logo-quadrada.png "alt="logo">
     </div>
 
-    <a href="home.html">
+    <a href="home.html"  id="linkDeshboard">
       <i class="fa-solid fa-house" style="color: rgb(255, 255, 255);"></i> Dashboard</a>
-    <a href="sensores.html" class="active">
+    <a href="#" id="linkSensores" class="active">
       <i class="fa-solid fa-signal" style="color: rgb(255, 255, 255);"></i> Sensores</a>
-    <a href="index.html" class="logout">SAIR</a>
+
+    <a href="#" class="logout" id="linkSair">SAIR</a>
   </div>
 
-      <div class="d-flex align-items-center">
+      <div class="container  align-items-center">
 
             <img class="img-fluid img-sensor-icon" src="assets/images/icon-sensor-logo.png" alt="">
              <p class="h4" id="cadastrartext">CADASTRAR NOVO SENSOR</p>

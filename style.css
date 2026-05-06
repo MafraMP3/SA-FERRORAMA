@@ -1,7 +1,7 @@
 :root{
     --cor-fundo: #f9f9ee;
     --submit-button-color: #ff3131;
-    --cor-home:#392d29;
+    --cor-home:#ffffff;
 }
 
 
@@ -74,3 +74,63 @@ body{
   font-family: 'Sawarabi';
   src: url(assets/fonts/SawarabiMincho-Regular.ttf) format(ttf)
 }
+
+    .sidebar {
+      width: 250px;
+      height: 100vh;
+      position: fixed;
+      background-color: #3a2a24;
+      color: white;
+      padding: 20px;
+    }
+
+    .sidebar img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .sidebar a {
+      display: block;
+      color: #ddd;
+      padding: 12px;
+      border-radius: 10px;
+      text-decoration: none;
+      margin-bottom: 10px;
+    }
+
+    .sidebar a.active,
+    .sidebar a:hover {
+      background-color: #ff2c2c;
+      color: white;
+    }
+
+    .logout {
+      position: absolute;
+      bottom: 20px;
+      width: 80%;
+      border: 2px solid red;
+      border-radius: 10px;
+      padding: 10px;
+      text-align: center;
+    }
+
+    /* CONTEÚDO */
+    .content {
+      margin-left: 270px;
+      padding: 30px;
+    }
+
+    .card-custom {
+      border-radius: 15px;
+      padding: 20px;
+      background-color: #f5f3ed;
+      border: 1px solid #999;
+    }
+
+    .box {
+      height: 200px;
+      border-radius: 15px;
+      border: 1px solid #999;
+      background-color: #f5f3ed;
+    }

@@ -105,7 +105,7 @@ body{
 
     .sidebar {
       width: 250px;
-      height: 100vh;
+      height: 100%;
       position: fixed;
       background-color: var(--cor-home);
       color: white;
@@ -134,9 +134,7 @@ body{
     }
 
     .logout {
-      position: absolute;
-      bottom: 20px;
-      width: 80%;
+      display: block;
       border: 2px solid red;
       border-radius: 10px;
       padding: 10px;

@@ -100,11 +100,12 @@ body{
 
 /*------------------------------sensores--------------------------------*/
 
+
 .div-top-sensors{
     border: 2px solid var(--label-login-color);
     border-radius: 10px;
     margin-top: 10px;
-    padding: 30px;
+    padding: 10px;
 }
 
 .img-sensor-icon{
@@ -118,6 +119,29 @@ body{
     margin-bottom: 3px;
     margin-left: 10px;
 }
+
+.label-form-sensors{
+  font-size: 26px;
+}
+
+#div-forms-sensors{
+  margin: 10px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+#div-form-cadastrarsensor{
+  justify-content: space-between !important;
+}
+
+#div-button-sensors{
+  display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+
 
 .icone-olho{
   height: 50px;
@@ -197,6 +221,7 @@ thead {
   .content {
     margin-left: 260px;
     padding: 10px;
+    display: block;
     }
 
 

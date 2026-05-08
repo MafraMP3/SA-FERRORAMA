@@ -252,6 +252,13 @@ body {
   src: url('assets/fonts/._Gatwick-Regular.otf') format('opentype')
 }
 
+@font-face {
+  font-family: 'Rasputin';
+  src: url('assets/fonts/Rasputin.otf') format('opentype')
+}
+
+
+
 .sidebar {
   width: 250px;
   height: 100%;
@@ -259,6 +266,7 @@ body {
   background-color: var(--cor-home);
   color: white;
   padding: 20px;
+  font-family: 'Cagliostro' , sans-serif;
 }
 
   .content {
@@ -266,6 +274,7 @@ body {
     padding: 10px;
     display: block;
     margin-right: 0  !important;
+    font-family: 'Cagliostro' , sans-serif;
     }
 
 
@@ -372,4 +381,9 @@ body {
 
   width: 25%;
 
+}
+
+.text-cadastrar-novo-sensor{
+  font-family: 'Rasputin' , sans-serif;
+  font-weight: bold;
 }

@@ -103,7 +103,7 @@ body {
 
 
 .div-top-sensors {
-  border: 2px solid var(--label-login-color);
+
   border-radius: 10px;
   margin-top: 10px;
   padding: 10px;
@@ -123,15 +123,13 @@ body {
 
 .label-form-sensors {
   font-size: clamp(20px, 6vw, 25px);
-  font-weight: 600;
   white-space: nowrap;
 }
 
 .input-form-sensors {
-  border: 2px solid var(--label-login-color);
-  padding: 10px 0px;
+  padding: 10px;
   border-radius: 10px;
-  background-color: var(--cor-fundo);
+  background-color: white
   font-size: clamp(20px, 6vw, 28px);
 }
 
@@ -164,8 +162,6 @@ body {
 @media (max-width: 1292px) {
 
   .div-top-sensors {
-    border: 2px solid var(--label-login-color);
-    border-radius: 10px;
     margin-top: 10px;
     padding: 10px;
   }
@@ -177,7 +173,6 @@ body {
   }
 
   .input-form-sensors {
-    border: 2px solid var(--label-login-color);
     padding: 10px 0px;
     border-radius: 10px;
     background-color: var(--cor-fundo);
@@ -254,8 +249,7 @@ body {
 }
 
 .div-tabela-sensors{
-  border: 2px solid var(--label-login-color);
-  border-radius: 10px;
+
   margin-top: 10px;
   padding: 10px;
 }

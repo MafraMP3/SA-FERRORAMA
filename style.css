@@ -211,7 +211,7 @@ body {
   }
 
 .div-tabela-sensors{
-    border: 2px solid var(--label-login-color);
+  border: 2px solid var(--label-login-color);
   border-radius: 10px;
   margin-top: 10px;
   padding: 10px;
@@ -221,6 +221,14 @@ body {
   margin-top: 20px;
 }
 
+.linha-horizontal-tabela > * {
+    background-color: var(--cor-fundo) !important;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border-width: 2px !important; 
+}
 
 /*--------------------------------------------------------------*/
 

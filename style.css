@@ -122,8 +122,8 @@ body {
 }
 
 .label-form-sensors{
-    font-size: clamp(20px, 6vw, 30px);
-    font-weight: 400;
+    font-size: clamp(20px, 6vw, 25px);
+    font-weight: 600;
     white-space: nowrap;
 }
 
@@ -151,13 +151,17 @@ body {
   justify-content: space-between !important;
 }
 
+.div-inputs-label-sensors{
+  margin: 0px 10px;
+}
+
 #div-button-sensors {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
-@media (max-width: 1216px) {
+@media (max-width: 1292px) {
 
   .div-top-sensors {
   border: 2px solid var(--label-login-color);

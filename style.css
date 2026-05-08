@@ -121,10 +121,10 @@ body {
   margin-left: 10px;
 }
 
-.label-form-sensors{
-    font-size: clamp(20px, 6vw, 25px);
-    font-weight: 600;
-    white-space: nowrap;
+.label-form-sensors {
+  font-size: clamp(20px, 6vw, 25px);
+  font-weight: 600;
+  white-space: nowrap;
 }
 
 .input-form-sensors {
@@ -151,7 +151,7 @@ body {
   justify-content: space-between !important;
 }
 
-.div-inputs-label-sensors{
+.div-inputs-label-sensors {
   margin: 0px 10px;
 }
 
@@ -164,31 +164,74 @@ body {
 @media (max-width: 1292px) {
 
   .div-top-sensors {
-  border: 2px solid var(--label-login-color);
-  border-radius: 10px;
-  margin-top: 10px;
-  padding: 10px;
-}
+    border: 2px solid var(--label-login-color);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+  }
 
-#div-forms-sensors {
-  margin: 7px;
-  margin-top: 40px;
-  margin-bottom: 20px;
-}
+  #div-forms-sensors {
+    margin: 7px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
 
-.input-form-sensors {
-  border: 2px solid var(--label-login-color);
-  padding: 10px 0px;
-  border-radius: 10px;
-  background-color: var(--cor-fundo);
-  font-size: 24px;
-}
+  .input-form-sensors {
+    border: 2px solid var(--label-login-color);
+    padding: 10px 0px;
+    border-radius: 10px;
+    background-color: var(--cor-fundo);
+    font-size: 24px;
+  }
 
   #div-form-cadastrarsensor {
     flex-direction: column !important;
     gap: 15px;
   }
+
+  .cont2 {
+    margin-left: 0 !important;
+    padding-top: 0px !important;
+  }
 }
+
+/*deletar sensor css*/
+
+#delete-sensor-part {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  z-index: 100;
+  background: var(--cor-fundo);
+  padding: 30px;
+  border-radius: 10px;
+  border: 2px solid var(--label-login-color);
+  box-shadow: 3px 10px 10px 3px rgba(0, 0, 0, 0.377);
+}
+
+@media (max-width: 800px) {
+  #delete-sensor-part {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  background: var(--cor-fundo);
+  padding: 0px;
+  border-radius: 10px;
+  border: 2px solid var(--label-login-color);
+  box-shadow: 3px 10px 10px 3px rgba(0, 0, 0, 0.377);
+}
+
+#img-delete-sensors{
+  width: 140px;
+  height:140px;
+}
+}
+
+/*-------------------*/
 
 /* parte do davip */
 
@@ -203,12 +246,12 @@ body {
 }
 
 .botao-imagem {
-    background: none;      
-    border: none;          
-    padding: 0;            
-    cursor: pointer;       
-    outline: inherit;      
-  }
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+}
 
 .div-tabela-sensors{
   border: 2px solid var(--label-login-color);
@@ -262,16 +305,16 @@ body {
   background-color: var(--cor-home);
   color: white;
   padding: 20px;
-  font-family: 'Cagliostro' , sans-serif;
+  font-family: 'Cagliostro', sans-serif;
 }
 
-  .content {
-    margin-left: 260px;
-    padding: 10px;
-    display: block;
-    margin-right: 0  !important;
-    font-family: 'Cagliostro' , sans-serif;
-    }
+.content {
+  margin-left: 260px;
+  padding: 10px;
+  display: block;
+  margin-right: 0 !important;
+  font-family: 'Cagliostro', sans-serif;
+}
 
 
 
@@ -300,7 +343,7 @@ body {
   display: block;
   border: 2px solid red;
   border-radius: 10px;
-  padding: 10px;
+  padding: 2px !important;
   text-align: center;
 }
 
@@ -364,7 +407,6 @@ body {
 
   .content {
     margin-left: 0 !important;
-    padding: 20px;
     padding-top: 60px;
   }
 }
@@ -373,13 +415,21 @@ body {
   margin: 0 !important;
 }
 
-.imagem-analise{
-
+.imagem-analise {
   width: 25%;
-
 }
 
-.text-cadastrar-novo-sensor{
-  font-family: 'Rasputin' , sans-serif;
+.text-cadastrar-novo-sensor {
+  font-family: 'Rasputin', sans-serif;
   font-weight: bold;
+}
+
+.btn{
+  transition: all 0.2s ease; 
+}
+
+.btn:active {
+
+  transform: scale(0.95); 
+  background-color: rgb(0, 0, 0) !important;
 }

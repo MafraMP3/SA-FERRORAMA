@@ -253,7 +253,7 @@ body {
   outline: inherit;
 }
 
-.div-tabela-sensors {
+.div-tabela-sensors{
   border: 2px solid var(--label-login-color);
   border-radius: 10px;
   margin-top: 10px;
@@ -264,6 +264,10 @@ body {
   margin-top: 20px;
 }
 
+.table-bordered th,
+.table-bordered td {
+  border-width: 2px !important; 
+}
 
 /*--------------------------------------------------------------*/
 

@@ -195,6 +195,9 @@ if (window.location.pathname.includes("sensores.html")) {
                   <button class="botao-imagem" onclick="window.location.href='monitoramento.html'"><img src="assets/images/Olho.png" class="icone-olho"></button>
                 </td>`
 
+                let semSensor = document.getElementById("nenhumSensor");
+                semSensor.style.display = 'none';
+
 
                 formSensor.reset();
             }

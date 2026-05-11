@@ -133,6 +133,13 @@ body {
   background-color: white;
 }
 
+.input-form-sensors-select{
+  padding: 10px 40px !important;
+  padding-left: 9px !important;
+  border-radius: 10px !important;
+  background-color: white !important;
+}
+
 .button-form-sensors {
   background-color: var(--submit-button-color);
   font-size: 30px;

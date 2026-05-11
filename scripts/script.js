@@ -133,13 +133,11 @@ if (window.location.pathname.includes("sensores.html")) {
                 <th class="ths">ID sensor</th>
                 <th class="ths">Localização</th>
                 <th class="ths">Tipo Dado</th>
-                <th>Status</th>
                 <th></th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>?</td>
                 <td>?</td>
                 <td>?</td>
                 <td>?</td>

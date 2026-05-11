@@ -109,7 +109,8 @@ if (window.location.pathname.includes("sensores.html")) {
     if (formSensor) {
         formSensor.onsubmit = (e) => {
 
-            telaExcluir.insertAdjacentHTML('afterend', `<div class="content">
+            if (!Tabela) {
+                telaExcluir.insertAdjacentHTML('afterend', `<div class="content">
       <div class="card div-tabela-sensors ">
 
         <div class="d-flex align-items-center">
@@ -141,8 +142,12 @@ if (window.location.pathname.includes("sensores.html")) {
                       src="assets/images/Olho.png" class="icone-olho"></button>
                 </td>
               </tr>
+          </table>
         </div>
       </div>`)
+            }
+
+            Tabela = document.getElementById("tabelaSensores");
 
             e.preventDefault();
 

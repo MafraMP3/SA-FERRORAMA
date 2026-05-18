@@ -8,6 +8,7 @@
 * Davi Sehnem
 * Kauan Fix
 * Lucas Acacio
+* Gustavo de Sena
 
 ---
 
